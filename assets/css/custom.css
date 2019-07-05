@@ -1,19 +1,30 @@
 .customlavender {
-    background: rgb(226, 226, 231) !important;
+  background: rgb(226, 226, 231) !important;
 }
 article {
-    margin: 2em 2em;
+  margin: 2em 2em;
 }
 .bg-white {
-    background-color: #ffffff;
-    padding: 3em;
+  background-color: #ffffff;
+  padding: 2em;
 }
 .zoom {
-    transition: transform .4s;
+  transition: transform 0.4s;
 }
 .zoom:hover {
   transform: scale(1.2);
 }
 .customfooter {
-    background-color: #292828;
+  background-color: #292828;
+}
+.mt4 {
+  margin-top: 10em;
+}
+
+@media only screen and (min-width: 800px) {
+  .bg-white {
+    background-color: #ffffff;
+    padding: 2em;
+    height: 470px !important;
+  }
 }
