@@ -1,0 +1,19 @@
+.customlavender {
+    background: rgb(226, 226, 231) !important;
+}
+article {
+    margin: 2em 2em;
+}
+.bg-white {
+    background-color: #ffffff;
+    padding: 3em;
+}
+.zoom {
+    transition: transform .4s;
+}
+.zoom:hover {
+  transform: scale(1.2);
+}
+.customfooter {
+    background-color: #292828;
+}
