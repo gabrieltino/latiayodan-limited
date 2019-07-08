@@ -256,7 +256,7 @@ header{
     font-size: 20px;
     font-weight: 10;
     text-transform: capitalize;
-    color: #fff;
+    color: rgba(0, 0, 255, 0.877);
     -webkit-box-shadow: 0 none;
     box-shadow: 0 none;
     -webkit-transition: all 0.3s; 
@@ -278,7 +278,7 @@ header{
 
 
 .default {
-	background:#292828;
+	background:#fff;
 	border-bottom:1px solid transparent;
 	opacity: 0.8;
 }
@@ -287,14 +287,14 @@ header{
 
 .fixed {
 	position: fixed;
-	background:#2a2a2a;
+	background:#fff;
 	border:none;
 	top:0;
 	left: 0;
 	width: 100%;
-	box-shadow: 0 0 10px #666;
-	-webkit-box-shadow: 0 0 10px #666;
-	-moz-box-shadow: 0 0 10px #666;
+	box-shadow: 0 0 10px rgb(204, 203, 203);
+	-webkit-box-shadow: 0 0 10px rgb(189, 184, 184);
+	-moz-box-shadow: 0 0 10px rgb(151, 148, 148);
 }
 
 /* =======================================
@@ -804,7 +804,7 @@ ul.the-icons {
 	padding:0 10px;
 }
 #contact-form input[type=text]:focus,#contact-form input[type=email]:focus, .contactForm textarea:focus {
-	background: rgba(101, 106, 100, 1);
+	background: rgb(167, 177, 165);
 	color: #eff1ef;
 	box-shadow: none;
 	-moz-box-shadow: none;
