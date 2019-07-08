@@ -22,7 +22,7 @@
     <title>Latiayodan - Contact us</title>
 </head>
 
-<body class="customlavender">
+<body>
     <header>
         <div id="navigation" class="navbar navbar-inverse navbar-fixed-top default" role="navigation">
             <div class="container">
@@ -46,6 +46,9 @@
                                     <a href="./services.html">Services</a>
                                 </li>
                                 <li>
+                                    <a href="./gallery.html">Gallery</a>
+                                </li>
+                                <li>
                                     <a href="./contact.html">Contact</a>
                                 </li>
                             </ul>
@@ -56,82 +59,78 @@
             </div>
         </div>
     </header>
+    <main>
 
-    <main class="container customlavender">
-        <section class="row">
-            <h1 class="text-center">Contact Us</h1>
-            <section class="bg-white">
-                <p class="text-primary text-center"><strong>La ayodan.limited@yahoo.com</strong></p><br>
+        <div class="container" style="margin-top: 10em;">
+            <div class="row">
                 <div class="col-md-6">
-                    <p class="text-center text-primary">
-                        <strong>ABUJA</strong><br>
-                        Suit 18, Aguiyi Ironsi Cantonment, Guard Bridge, Asokoro, Abuja.
-                        <br>Tel: +2348068185573, +2348164426272. La ayodan.limited@yahoo.com
+                    <h4><strong>Contact form</strong></h4>
+                    <p>
+                        Want to work with us or just want to say hello? Don't hesitate to get in touch!
                     </p>
+                    <!-- start contact form -->
+                    <div class="cform" id="contact-form">
+                        <div id="sendmessage">
+                            Your message has been sent. Thank you!
+                        </div>
+                        <form action="#" method="post" role="form" class="contactForm">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                                    data-rule="maxlen:4" data-msg="Please enter at least 4 chars" />
+                                <div class="validation"></div>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" class="form-control" name="email" id="email"
+                                    placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                                <div class="validation"></div>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" class="form-control" name="subject" id="subject"
+                                    placeholder="Subject" data-rule="maxlen:4"
+                                    data-msg="Please enter at least 8 chars of subject" />
+                                <div class="validation"></div>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea class="form-control" name="message" rows="5" data-rule="required"
+                                    data-msg="Please write something for us"></textarea>
+                                <div class="validation"></div>
+                            </div>
+
+                            <button type="submit" class="btn btn-lg btn-theme pull-left">Send Message</button>
+                        </form>
+
+                    </div>
+                    <!-- end contact form -->
+                    <div class="clear"></div>
                 </div>
                 <div class="col-md-6">
-                    <p class="text-center text-primary">
-                        <strong>AKURE</strong><br>
-                        Block 0, Plot 3, Oba Afunbiowo Estate, Akure, Ondo State.
-                        <br>Tel: +2348068185573, +2348164426272
-                    </p>
+                    <h4>Find our location</h4>
+                    <p>View from google map</p>
+                    <!-- map -->
+                    <div id="section-map" class="clearfix">
+                        <div id="map"></div>
+                    </div>
                 </div>
-                <div class="mt4">
-                    <div class="col-md-6">
-                    <p class="text-center text-primary">
-                        <strong>LAGOS</strong><br>
-                        Plot 11d Block 22, General Ogomudia Blvd,
-                        Off Jeremiah Ugwu Street,
-                        <br>Off Admiralty Road. Lekki Phase 1. Tel: +2348094441264
-                    </p>
-                </div>
-                <div class="col-md-6">
-                    <p class="text-center text-primary">
-                        <strong>LONDON</strong><br>
-                        12 Standfeild Gardens,Dagenham Essex, Rm108js London,
-                        <br>+447958263346, +447511013561
-                    </p>
-                </div>
-                </div>
-            </section>
-            <div class="col-md-12">
-                <article>
-                    Latiayodan is instrumental in achieving a higher level of different door sector by blending its
-                    experience and knowledge accumulated over many years with its innovative vision.
-                    The knowledge and experience are strictly followed by technologists with full, expert staff.
-                </article>
-                <article>
-                    Latiayodan brings its products with original model and color choices to its consumer with the latest
-                    technology park, superior quality standards.
-                    Every level of quality provides reliable protection and comfort.
-                </article>
-                <article>
-                    Latiayodan carefully chooses all the components used in the production of the doors, with the
-                    experience he has revealed for many years. The wood fiber plate, lining, paint, coatings,
-                    accessories and other components used must be supplied from suppliers compliant with European Union
-                    norms,
-                    completing the serfitization, and paying attention to DIN norms.
-                </article>
-                <article>
-                    Latiayodan aims to be one of the most prominent solution partners of the world in door and
-                    integrated wood solutions with its vision of the future. It uses ecological
-                    and non-harmful materials to keep environmental awareness and ecological sensitivity.
-                </article>
             </div>
-            <div class="col-md-3">
-                <img src="./images/pexels-photo-213162.jpeg" alt="" class="img-responsive" />
-            </div>
-            <div class="col-md-3">
-                <img src="./images/pexels-photo2.jpeg" alt="" class="img-responsive" />
-            </div>
-            <div class="col-md-3">
-                <img src="./images/estatemgnt/est4.png" alt="" class="img-responsive" />
-            </div>
-            <div class="col-md-3">
-                <img src="./images/interiordec/intdec15.png" alt="" class="img-responsive" />
-            </div>
-        </section>
+        </div>
     </main>
+<!-- <section id="partners">
+		<div class="row">
+			<div class="col-md-4">
+			<img class="img-responsive" src="./images/partners/ferra.png" alt="ferra"/>
+			</div>
+			<div class="col-md-4">
+			<img class="img-responsive" src="./images/partners/logo-temcon.png" alt="ferra"/>
+			</div>
+			<div class="col-md-4">
+			<img class="img-responsive" src="./images/partners/logo_inkol_new.png" alt="ferra"/>
+			</div>
+		</div>
+	</section> -->
 
     <!-- end section contact -->
     <footer class="customfooter">
@@ -139,27 +138,6 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-5">
-                        <!-- <h5 style="color: white">CONTACT US</h5>
-                        <ul>
-                            <li>Suit 18, Aguiyi Ironsi Cantonment,
-                                <br>Guard Bridge, Asokoro,
-                                Abuja.
-                                <br>Tel: +2348068185573, +2348164426272.
-                            </li> -->
-                            <!-- <hr/>
-								<li>
-									Plot 11d Block 22, General Ogomudia Blvd, 
-									<br>Off Jeremiah Ugwu Street, 
-									<br>Off Admiralty Road. Lekki Phase 1. 
-									<br>Tel: +2348094441264
-								</li>
-								<hr/>
-								<li>
-									12 Standfeild Gardens,Dagenham Essex, 
-									<br>Rm108js London, 
-									<br>+447958263346, +447511013561
-								</li> -->
-                        <!-- </ul> -->
                     </div>
                     <div class="col-md-12">
                         <div class="aligncenter">
@@ -189,6 +167,11 @@
             </div>
         </div>
     </footer>
+    <div class="whatsapp-container">
+		<a href="https://api.whatsapp.com/send?phone=+90 530 349 00 29&text=Hello" target="_blank" rel="nofollow">
+	<img src="./images/whatsapp.png"/>
+	</a>
+	</div>
     <a href="#" class="scrollup"><i class="fa fa-angle-up fa-2x"></i></a>
     <!-- javascript -->
     <script src="assets/js/jquery-1.9.1.min.js"></script>
