@@ -112,6 +112,10 @@ section.container {
 }
 
 @media only screen and (min-width: 768px) {
+  .other-contact {
+    position: relative;
+    left: 60px;
+  }
   .bg-white {
     background-color: #ffffff;
     padding: 2em;
