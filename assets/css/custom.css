@@ -7,6 +7,18 @@
   background: #fff !important;
   width: 100%;
 }
+.text-dark {
+  color: rgba(0, 0, 255, 0.877) !important;
+  text-decoration: none !important;
+  border-bottom: 1.2px solid rgb(133, 125, 125);
+  display: block;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 0.5em 0.2em;
+}
+.text-dark:hover {
+  background: #ddd6d6;
+}
 
 article {
   margin: 2em 2em;
