@@ -16,6 +16,9 @@
   font-weight: 300;
   padding: 0.5em 0.2em;
 }
+#sanitary div {
+  margin: 12px 0 4px 15%;
+}
 .remove-opacity {
   width:200px;
 }
