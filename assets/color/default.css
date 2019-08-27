@@ -50,8 +50,8 @@ ul.nav li.current {
 .navbar .nav > li > a:focus,
 .navbar .nav > li > a:active,
 .navbar .nav > li.active > a {
-    color: #d6d3d3 !important;
-    background-color: #363535 !important;
+    color: rgba(0, 0, 255, 0.877) !important;
+    /* background-color: #f7f4f4 !important; */
 
 }
 

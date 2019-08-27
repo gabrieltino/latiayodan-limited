@@ -16,6 +16,9 @@
   font-weight: 300;
   padding: 0.5em 0.2em;
 }
+.remove-opacity {
+  width:200px;
+}
 .text-dark:hover {
   background: #ddd6d6;
 }
