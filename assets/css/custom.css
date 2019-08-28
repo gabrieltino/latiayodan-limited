@@ -19,6 +19,9 @@
 #sanitary div {
   margin: 12px 0 4px 15%;
 }
+#sanitary2 div {
+  margin: 12px 0px 0px 0;
+}
 .remove-opacity {
   width:200px;
 }
